@@ -1,9 +1,15 @@
 /* Shared Styles */
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     margin: auto;
     background-image: url(../images/white-waves/white-waves.png);
     background-repeat: repeat;
+    margin-bottom: 50px;
 }
 
 .custom-header {
@@ -62,6 +68,10 @@ h3 {
 h4 {
     color: #777777;
     font-size: 20px;
+}
+
+h6 {
+    margin-bottom: 0;
 }
 
 
@@ -169,14 +179,11 @@ h4 {
     height: 128px;
 }
 
-
-/* Contact page */
-
-input,
-textarea {
-    margin: 3px 0 13px 0;
+.btn-primary {
+    background-color: #4aaaa5 !important;
+    border-color: #4aaaa5 !important;
 }
 
-#submitButton {
-    padding: auto 30px;
+.card {
+    width: 250px;
 }
